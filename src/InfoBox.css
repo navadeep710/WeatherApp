@@ -1,0 +1,13 @@
+/* Center the card horizontally */
+.info {
+    display: flex;
+    justify-content: center;  /* Ensures horizontal centering */
+    padding: 20px;
+}
+
+/* Ensure the card keeps its max width and doesn't shrink */
+.MuiCard-root {
+    width: 100%;              /* Full width */
+    max-width: 345px;          /* Limit maximum width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  /* Optional: Add a shadow for styling */
+}
